@@ -1,0 +1,16 @@
+{
+  "name": "opensimrs-website",
+  "private": true,
+  "description": "Situs resmi OpenSIMRS: landing page (opensimrs.my.id) dan dokumentasi (docs.opensimrs.id)",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs --port 5180",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs --port 5181",
+    "landing:dev": "npx --yes serve@14.2.4 landing -l 5182"
+  },
+  "devDependencies": {
+    "vitepress": "1.6.3"
+  }
+}

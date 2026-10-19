@@ -1,6 +1,6 @@
 # Panduan Penulisan Dokumentasi OpenSIMRS
 
-Dokumentasi di `docs/` dibangun dengan [VitePress](https://vitepress.dev) dan terbit di **https://docs.opensimrs.id**. Gaya penulisannya mengikuti dokumentasi proyek open source yang matang (Laravel, Express, Vue): ringkas, berurutan dari konsep ke praktik, dan selalu memberi contoh yang bisa langsung dicoba.
+Dokumentasi di `docs/` dibangun dengan [VitePress](https://vitepress.dev) dan terbit di **https://docs.opensimrs.com**. Gaya penulisannya mengikuti dokumentasi proyek open source yang matang (Laravel, Express, Vue): ringkas, berurutan dari konsep ke praktik, dan selalu memberi contoh yang bisa langsung dicoba.
 
 ## Bahasa & istilah
 - Bahasa Indonesia yang baik dan benar, kalimat aktif, sapa pembaca dengan "Anda".

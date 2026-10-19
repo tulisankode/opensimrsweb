@@ -89,10 +89,10 @@ Kami percaya sistem informasi kesehatan Indonesia harus **terbuka, terjangkau, a
 
 | Keperluan | Saluran |
 |---|---|
-| Umum, keamanan, dan kode etik | [dev@opensimrs.id](mailto:dev@opensimrs.id) |
+| Umum, keamanan, dan kode etik | [dev@opensimrs.com](mailto:dev@opensimrs.com) |
 | Diskusi komunitas | [Kanal Komunitas](/komunitas/) (Telegram, Discord, WhatsApp) |
 | Pelacakan pekerjaan teknis | GitHub Issues & Pull Request di [tulisankode/opensimrs](https://github.com/tulisankode/opensimrs) |
-| Website resmi | [OpenSIMRS.my.id](https://opensimrs.my.id) |
+| Website resmi | [opensimrs.com](https://opensimrs.com) |
 
 ## Langkah berikutnya
 

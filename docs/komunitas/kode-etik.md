@@ -50,7 +50,7 @@ Pelanggaran berat (mis. menyebarkan data pasien atau pelecehan) dapat langsung d
 
 ## Pelaporan
 
-Laporkan pelanggaran secara privat ke **[dev@opensimrs.id](mailto:dev@opensimrs.id)**. Identitas pelapor dijaga kerahasiaannya.
+Laporkan pelanggaran secara privat ke **[dev@opensimrs.com](mailto:dev@opensimrs.com)**. Identitas pelapor dijaga kerahasiaannya.
 
 > Komunitas yang sehat melahirkan teknologi yang kuat.
 

@@ -17,8 +17,8 @@ Selain ketiga kanal di atas:
 | Saluran | Dipakai untuk |
 |---|---|
 | **GitHub Issues & Pull Request** di [github.com/tulisankode/opensimrs](https://github.com/tulisankode/opensimrs) | Pelacakan pekerjaan teknis: bug, backlog, RFC, review kode. **Bukan** forum diskusi. |
-| **Email [dev@opensimrs.id](mailto:dev@opensimrs.id)** | Pertanyaan umum, laporan keamanan, dan laporan pelanggaran kode etik |
-| **Website [OpenSIMRS.my.id](https://opensimrs.my.id)** | Website resmi proyek |
+| **Email [dev@opensimrs.com](mailto:dev@opensimrs.com)** | Pertanyaan umum, laporan keamanan, dan laporan pelanggaran kode etik |
+| **Website [opensimrs.com](https://opensimrs.com)** | Website resmi proyek |
 
 ::: tip Mau bertanya soal instalasi?
 Gunakan kanal `#bantuan-instalasi` di Discord. Bila masalahnya ternyata bug, buat issue di GitHub agar jawabannya terdokumentasi dan bisa dicari orang lain.
@@ -36,7 +36,7 @@ Aturan ini berlaku di ketiga kanal, sebagai pelengkap [Kode Etik](/komunitas/kod
    - alamat IP atau host server faskes.
 
    Gunakan [data demo](/memulai/data-demo) (`npm run db:demo:seed`) untuk contoh dan tangkapan layar. Bila terlanjur terkirim, segera hapus pesannya dan rotasi kredensial yang bocor.
-3. **Celah keamanan dilaporkan secara privat** ke `dev@opensimrs.id` sesuai [Kebijakan Keamanan](/pendahuluan/keamanan), **bukan** di grup.
+3. **Celah keamanan dilaporkan secara privat** ke `dev@opensimrs.com` sesuai [Kebijakan Keamanan](/pendahuluan/keamanan), **bukan** di grup.
 4. **Pertanyaan teknis yang berulang** atau laporan bug diarahkan ke **GitHub Issue**. Moderator dapat meminta penanya membuat issue dan menautkannya di kanal.
 5. **Tanpa spam dan promosi.** Promosi produk/jasa, lowongan, atau tautan berbayar hanya dengan izin moderator.
 6. **Tetap pada topik kanal.** Di Discord, pilih kanal yang sesuai; di WhatsApp, utamakan koordinasi dan pengumuman, bukan diskusi panjang.
@@ -52,7 +52,7 @@ Pelanggaran ditangani bertahap:
 | 2 | **Mute** atau pembatasan sementara |
 | 3 | **Dikeluarkan** dari kanal |
 
-Pelanggaran berat (menyebarkan data pasien, pelecehan, penipuan) dapat langsung dikenai tahap 3 dan dilaporkan ke maintainer. Keberatan atas tindakan moderasi dikirim ke `dev@opensimrs.id`.
+Pelanggaran berat (menyebarkan data pasien, pelecehan, penipuan) dapat langsung dikenai tahap 3 dan dilaporkan ke maintainer. Keberatan atas tindakan moderasi dikirim ke `dev@opensimrs.com`.
 
 ### Peran admin dan moderator
 

@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 
-// Dokumentasi resmi OpenSIMRS — https://docs.opensimrs.id
+// Dokumentasi resmi OpenSIMRS — https://docs.opensimrs.com
 // Struktur mengikuti dokumentasi proyek open source umumnya (Laravel, Express): Pendahuluan → Memulai → Arsitektur →
 // Modul → Integrasi → SIMRS Studio → Referensi API → Komunitas.
 
@@ -102,13 +102,13 @@ export default defineConfig({
   // Tautan ke aplikasi lokal (http://localhost:5520 dst.) memang disengaja; tautan internal lain tetap diperiksa.
   ignoreDeadLinks: 'localhostLinks',
   lastUpdated: true,
-  sitemap: { hostname: 'https://docs.opensimrs.id' },
+  sitemap: { hostname: 'https://docs.opensimrs.com' },
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
     ['meta', { name: 'theme-color', content: '#1a66e0' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'Dokumentasi OpenSIMRS' }],
-    ['meta', { property: 'og:image', content: 'https://docs.opensimrs.id/logo.png' }],
+    ['meta', { property: 'og:image', content: 'https://docs.opensimrs.com/logo.png' }],
   ],
   themeConfig: {
     logo: '/logo-ikon.png',
@@ -127,7 +127,7 @@ export default defineConfig({
           { text: 'Kontribusi', link: '/pendahuluan/kontribusi' },
         ],
       },
-      { text: 'Situs Utama', link: 'https://opensimrs.my.id' },
+      { text: 'Situs Utama', link: 'https://opensimrs.com' },
     ],
     sidebar: {
       '/pendahuluan/': sidebar,
@@ -173,7 +173,7 @@ export default defineConfig({
       linkText: 'Kembali ke beranda dokumentasi',
     },
     footer: {
-      message: 'Dirilis dengan lisensi MIT. Kontak: <a href="mailto:dev@opensimrs.id">dev@opensimrs.id</a>',
+      message: 'Dirilis dengan lisensi MIT. Kontak: <a href="mailto:dev@opensimrs.com">dev@opensimrs.com</a>',
       copyright: 'Hak cipta © 2026 kontributor OpenSIMRS',
     },
   },

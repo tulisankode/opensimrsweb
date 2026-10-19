@@ -78,7 +78,7 @@ Rilis publik pertama sebagai **OpenSIMRS**, sebelumnya dikembangkan secara inter
 - **Deploy generik** di `deploy/server/` dan CI yang menguji sintaks, uji unit, `schema.sql` + migrasi dua kali, katalog, serta build frontend.
 - **`schema.sql` tanpa data pribadi**: hanya struktur dan data referensi nasional.
 - **Dokumentasi komunitas**: README, Petunjuk Instalasi, Manajemen Modul, Roadmap, Panduan Kontribusi, aturan versi/branch/merge, panduan per peran kontributor, Spesifikasi Hardware, dan kanal komunitas.
-- **Lisensi MIT** dan kontak resmi `dev@opensimrs.id`.
+- **Lisensi MIT** dan kontak resmi `dev@opensimrs.com`.
 - **Keamanan**: nilai rahasia di semua `.env.example` dikosongkan, skrip berkredensial tertanam dihapus, dan dokumen tidak lagi menyebut alamat server internal.
 
 ## Versi 0.x (sebelum kode dibuka)

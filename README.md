@@ -4,8 +4,8 @@ Repositori ini berisi dua situs statis OpenSIMRS, terpisah dari kode aplikasi ([
 
 | Folder | Situs | Domain | Teknologi |
 |---|---|---|---|
-| `landing/` | Landing page | https://opensimrs.my.id | HTML + CSS statis, tanpa build |
-| `docs/` | Dokumentasi resmi | https://docs.opensimrs.id | [VitePress](https://vitepress.dev) 1.6 |
+| `landing/` | Landing page | https://opensimrs.com | HTML + CSS statis, tanpa build |
+| `docs/` | Dokumentasi resmi | https://docs.opensimrs.com | [VitePress](https://vitepress.dev) 1.6 |
 
 ## Menjalankan di komputer sendiri
 
@@ -36,8 +36,8 @@ Buat dua proyek Pages dari repositori ini:
 
 | Proyek | Build command | Output directory | Custom domain |
 |---|---|---|---|
-| `opensimrs-docs` | `npm run docs:build` | `docs/.vitepress/dist` | `docs.opensimrs.id` |
-| `opensimrs-landing` | *(kosong)* | `landing` | `opensimrs.my.id` |
+| `opensimrs-docs` | `npm run docs:build` | `docs/.vitepress/dist` | `docs.opensimrs.com` |
+| `opensimrs-landing` | *(kosong)* | `landing` | `opensimrs.com` |
 
 Atur variabel lingkungan `NODE_VERSION=20` pada proyek dokumentasi.
 
@@ -45,13 +45,13 @@ Atur variabel lingkungan `NODE_VERSION=20` pada proyek dokumentasi.
 
 ```nginx
 server {
-  server_name docs.opensimrs.id;
+  server_name docs.opensimrs.com;
   root /var/www/opensimrs-docs;        # isi docs/.vitepress/dist
   location / { try_files $uri $uri.html $uri/ =404; }   # cleanUrls VitePress
   error_page 404 /404.html;
 }
 server {
-  server_name opensimrs.my.id;
+  server_name opensimrs.com;
   root /var/www/opensimrs-landing;     # isi folder landing/
   index index.html;
 }

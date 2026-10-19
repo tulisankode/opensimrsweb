@@ -17,7 +17,7 @@ Selama status alfa, perbaikan keamanan hanya dirilis untuk versi terbaru. Perbar
 **Jangan** melaporkan kerentanan lewat GitHub Issues, Pull Request publik, atau kanal komunitas (Telegram, Discord, WhatsApp). Kerentanan yang diumumkan sebelum diperbaiki bisa dimanfaatkan untuk menyerang faskes yang sedang memakai OpenSIMRS.
 :::
 
-Kirim laporan secara privat ke **[dev@opensimrs.id](mailto:dev@opensimrs.id)** dengan isi:
+Kirim laporan secara privat ke **[dev@opensimrs.com](mailto:dev@opensimrs.com)** dengan isi:
 
 - deskripsi singkat kerentanan;
 - langkah reproduksi, memakai [data demo](/memulai/data-demo), **bukan** data pasien nyata;

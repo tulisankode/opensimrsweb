@@ -1,7 +1,7 @@
 {
   "name": "opensimrs-website",
   "private": true,
-  "description": "Situs resmi OpenSIMRS: landing page (opensimrs.my.id) dan dokumentasi (docs.opensimrs.id)",
+  "description": "Situs resmi OpenSIMRS: landing page (opensimrs.com) dan dokumentasi (docs.opensimrs.com)",
   "license": "MIT",
   "type": "module",
   "scripts": {

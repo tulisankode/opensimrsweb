@@ -59,6 +59,8 @@ server {
 
 Pasang HTTPS dengan certbot, atau letakkan di belakang Cloudflare.
 
+Pembaruan di server cukup dengan menjalankan `./deploy.sh` dari folder repo: skrip ini melakukan `git pull`, build dokumentasi, lalu menyalin hasilnya ke `/var/www/opensimrs-docs` dan `/var/www/opensimrs-landing`.
+
 ## Menulis dokumentasi
 
 Baca [PANDUAN-PENULISAN.md](./PANDUAN-PENULISAN.md). Menu sidebar diatur di `docs/.vitepress/config.mts`. Setiap halaman baru harus didaftarkan di sana. `npm run docs:build` gagal bila ada tautan internal yang rusak, jadi jalankan sebelum membuat pull request.
